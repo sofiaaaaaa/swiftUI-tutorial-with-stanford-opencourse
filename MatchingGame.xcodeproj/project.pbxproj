@@ -13,6 +13,9 @@
 		3D3F4E7C25E091E9004C5710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F4E7B25E091E9004C5710 /* Preview Assets.xcassets */; };
 		3D3F4E8525E09207004C5710 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F4E8425E09207004C5710 /* EmojiMemoryGame.swift */; };
 		3D3F4E8825E09219004C5710 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F4E8725E09219004C5710 /* MemoryGame.swift */; };
+		3D3F4E8C25E1E2B8004C5710 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F4E8B25E1E2B8004C5710 /* Grid.swift */; };
+		3D3F4E8F25E1EAFE004C5710 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F4E8E25E1EAFE004C5710 /* GridLayout.swift */; };
+		3D3F4E9225E1F0D9004C5710 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F4E9125E1F0D9004C5710 /* Array+Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3D3F4E7D25E091E9004C5710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3F4E8425E09207004C5710 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		3D3F4E8725E09219004C5710 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		3D3F4E8B25E1E2B8004C5710 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		3D3F4E8E25E1EAFE004C5710 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		3D3F4E9125E1F0D9004C5710 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				3D3F4E7425E091E9004C5710 /* MatchingGameApp.swift */,
 				3D3F4E7625E091E9004C5710 /* EmojiMemoryGameView.swift */,
+				3D3F4E8E25E1EAFE004C5710 /* GridLayout.swift */,
+				3D3F4E8B25E1E2B8004C5710 /* Grid.swift */,
+				3D3F4E9125E1F0D9004C5710 /* Array+Identifiable.swift */,
 				3D3F4E8425E09207004C5710 /* EmojiMemoryGame.swift */,
 				3D3F4E8725E09219004C5710 /* MemoryGame.swift */,
 				3D3F4E7825E091E9004C5710 /* Assets.xcassets */,
@@ -147,6 +156,9 @@
 				3D3F4E7725E091E9004C5710 /* EmojiMemoryGameView.swift in Sources */,
 				3D3F4E7525E091E9004C5710 /* MatchingGameApp.swift in Sources */,
 				3D3F4E8825E09219004C5710 /* MemoryGame.swift in Sources */,
+				3D3F4E8F25E1EAFE004C5710 /* GridLayout.swift in Sources */,
+				3D3F4E8C25E1E2B8004C5710 /* Grid.swift in Sources */,
+				3D3F4E9225E1F0D9004C5710 /* Array+Identifiable.swift in Sources */,
 				3D3F4E8525E09207004C5710 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
