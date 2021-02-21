@@ -18,7 +18,7 @@ struct Grid<Item,ItemView>: View where Item: Identifiable, ItemView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            self.body(for: GridLayout(itemCount: self.items.count, in: geometry))
+            self.body(for: GridLayout(itemCount: self.items.count,  in: geometry.size))
         }
        
     }
@@ -31,12 +31,9 @@ struct Grid<Item,ItemView>: View where Item: Identifiable, ItemView: View {
     }
     
     func body(for item: Item, in layout: GridLayout) -> some View {
-        let index = items.firstIndexdex(matching: item)
-        
+        let index = items.firstIndexdex(matching: item)!
         return viewForItem(item)
             .frame(width: layout.itemSize.width, height: layout.itemSize.height)
             .position(layout.location(ofItemAt: index))
     }
-    
-    
 }
