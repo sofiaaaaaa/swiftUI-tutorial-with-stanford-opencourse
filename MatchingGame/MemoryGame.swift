@@ -14,21 +14,6 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         get {
             cards.indices.filter { cards[$0].isFaceUp }.only
             
-//            var faceUpCardIndices = cards.indices.filter { (index) -> Bool in
-//                return cards[index].isFaceUp
-//            }
-//
-//            for index in cards.indices {
-//                if cards[index].isFaceUp {
-//                    faceUpCardIndices.append(index)
-//                }
-//            }
-            
-//            if faceUpCardIndices.count == 1 {
-//                return faceUpCardIndices.first
-//            } else {
-//                return nil
-//            }
             
         }
         set {
